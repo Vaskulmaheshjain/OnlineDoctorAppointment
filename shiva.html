@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>booking</title>
+<style> 
+button { 
+       background-color: dimgray; 
+       width: 50;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+      background-color: rgb(126, 214, 210);
+        border: 3px solid #f1f1f1;
+        align-content: center; 
+        width: 50%;
+    } 
+ input[type=text], input[type=password] { 
+        width: 50; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 15px 15px; 
+        
+    } 
+    .head{
+  padding: 15px 16px;
+  background-color: #359dc741;
+}
+
+</style> 
+</head>  
+<body>  
+    <div class="head">
+        <center><b><font style="color:red;font-size:35px;">ONLINE APPOINTMENT</font></b></center>
+        <p style="text-align:right"><b>Timings:8:00.AM - 9:00.PM</b></p>
+         </div>
+       
+    <center> <h1 style="color:dimgray;">PLEASE ENTER YOUR DETAILS </h1> </center> 
+   <center><form style="padding: 10px;" action="Booking1.php" method="POST">
+        <div class="container"> 
+            <label for="Patient_Name">Patient_Name : </label> <br>
+            <input type="text" placeholder="Enter Patient_Name" name="Patient_Name" required><br>
+
+            <label for="Age" >Age: </label> <br>
+            <input type="text" placeholder="Enter Age" name="Age" required><br>
+        
+            <label for="Mobile_Number">Mobile_Number: </label> <br>
+            <input type="text" placeholder="Enter Mobile_Number" name="Mobile_Number" required><br>
+            <button type="submit">BOOK</button> 
+        </div> 
+    </form>   </center> 
+    <p style="text-align: right;">
+    <img src="stethas.jpg "/>
+    </p>
+</body>   
+</html>
+
+ 
